@@ -24,20 +24,30 @@ limitations under the License.
 
 > Double-precision floating-point mathematical constants.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float64
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { APERY, CATALAN, CBRT_EPS, E, EPS, EULERGAMMA, EXPONENT_BIAS, FOURTH_PI, FOURTH_ROOT_EPS, GAMMA_LANCZOS_G, GLAISHER, HALF_LN2, HALF_PI, HIGH_WORD_EXPONENT_MASK, HIGH_WORD_SIGNIFICAND_MASK, LN10, LN2, LN_HALF, LN_PI, LN_SQRT_TWO_PI, LN_TWO_PI, LOG10E, LOG2E, MAX, MAX_BASE10_EXPONENT, MAX_BASE10_EXPONENT_SUBNORMAL, MAX_BASE2_EXPONENT, MAX_BASE2_EXPONENT_SUBNORMAL, MAX_LN, MAX_SAFE_FIBONACCI, MAX_SAFE_INTEGER, MAX_SAFE_LUCAS, MAX_SAFE_NTH_FIBONACCI, MAX_SAFE_NTH_LUCAS, MIN_BASE10_EXPONENT, MIN_BASE10_EXPONENT_SUBNORMAL, MIN_BASE2_EXPONENT, MIN_BASE2_EXPONENT_SUBNORMAL, MIN_LN, MIN_SAFE_INTEGER, NINF, NUM_BYTES, PHI, PI, PINF, PI_SQUARED, PRECISION, SMALLEST_NORMAL, SMALLEST_SUBNORMAL, SQRT_EPS, SQRT_HALF, SQRT_HALF_PI, SQRT_PHI, SQRT_PI, SQRT_THREE, SQRT_TWO, SQRT_TWO_PI, TWO_PI } from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64@deno/mod.js';
+var constants = require( '@stdlib/constants-float64' );
 ```
 
 #### constants
@@ -129,8 +139,8 @@ var c = constants;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64@deno/mod.js';
+var objectKeys = require( '@stdlib/utils-keys' );
+var constants = require( '@stdlib/constants-float64' );
 
 console.log( objectKeys( constants ) );
 ```
@@ -156,7 +166,7 @@ console.log( objectKeys( constants ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -218,121 +228,121 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/constants/float64/apery]: https://github.com/stdlib-js/constants-float64-apery/tree/deno
+[@stdlib/constants/float64/apery]: https://github.com/stdlib-js/constants-float64-apery
 
-[@stdlib/constants/float64/catalan]: https://github.com/stdlib-js/constants-float64-catalan/tree/deno
+[@stdlib/constants/float64/catalan]: https://github.com/stdlib-js/constants-float64-catalan
 
-[@stdlib/constants/float64/cbrt-eps]: https://github.com/stdlib-js/constants-float64-cbrt-eps/tree/deno
+[@stdlib/constants/float64/cbrt-eps]: https://github.com/stdlib-js/constants-float64-cbrt-eps
 
-[@stdlib/constants/float64/e]: https://github.com/stdlib-js/constants-float64-e/tree/deno
+[@stdlib/constants/float64/e]: https://github.com/stdlib-js/constants-float64-e
 
-[@stdlib/constants/float64/eps]: https://github.com/stdlib-js/constants-float64-eps/tree/deno
+[@stdlib/constants/float64/eps]: https://github.com/stdlib-js/constants-float64-eps
 
-[@stdlib/constants/float64/eulergamma]: https://github.com/stdlib-js/constants-float64-eulergamma/tree/deno
+[@stdlib/constants/float64/eulergamma]: https://github.com/stdlib-js/constants-float64-eulergamma
 
-[@stdlib/constants/float64/exponent-bias]: https://github.com/stdlib-js/constants-float64-exponent-bias/tree/deno
+[@stdlib/constants/float64/exponent-bias]: https://github.com/stdlib-js/constants-float64-exponent-bias
 
-[@stdlib/constants/float64/fourth-pi]: https://github.com/stdlib-js/constants-float64-fourth-pi/tree/deno
+[@stdlib/constants/float64/fourth-pi]: https://github.com/stdlib-js/constants-float64-fourth-pi
 
-[@stdlib/constants/float64/fourth-root-eps]: https://github.com/stdlib-js/constants-float64-fourth-root-eps/tree/deno
+[@stdlib/constants/float64/fourth-root-eps]: https://github.com/stdlib-js/constants-float64-fourth-root-eps
 
-[@stdlib/constants/float64/gamma-lanczos-g]: https://github.com/stdlib-js/constants-float64-gamma-lanczos-g/tree/deno
+[@stdlib/constants/float64/gamma-lanczos-g]: https://github.com/stdlib-js/constants-float64-gamma-lanczos-g
 
-[@stdlib/constants/float64/glaisher-kinkelin]: https://github.com/stdlib-js/constants-float64-glaisher-kinkelin/tree/deno
+[@stdlib/constants/float64/glaisher-kinkelin]: https://github.com/stdlib-js/constants-float64-glaisher-kinkelin
 
-[@stdlib/constants/float64/half-ln-two]: https://github.com/stdlib-js/constants-float64-half-ln-two/tree/deno
+[@stdlib/constants/float64/half-ln-two]: https://github.com/stdlib-js/constants-float64-half-ln-two
 
-[@stdlib/constants/float64/half-pi]: https://github.com/stdlib-js/constants-float64-half-pi/tree/deno
+[@stdlib/constants/float64/half-pi]: https://github.com/stdlib-js/constants-float64-half-pi
 
-[@stdlib/constants/float64/high-word-exponent-mask]: https://github.com/stdlib-js/constants-float64-high-word-exponent-mask/tree/deno
+[@stdlib/constants/float64/high-word-exponent-mask]: https://github.com/stdlib-js/constants-float64-high-word-exponent-mask
 
-[@stdlib/constants/float64/high-word-significand-mask]: https://github.com/stdlib-js/constants-float64-high-word-significand-mask/tree/deno
+[@stdlib/constants/float64/high-word-significand-mask]: https://github.com/stdlib-js/constants-float64-high-word-significand-mask
 
-[@stdlib/constants/float64/ln-half]: https://github.com/stdlib-js/constants-float64-ln-half/tree/deno
+[@stdlib/constants/float64/ln-half]: https://github.com/stdlib-js/constants-float64-ln-half
 
-[@stdlib/constants/float64/ln-pi]: https://github.com/stdlib-js/constants-float64-ln-pi/tree/deno
+[@stdlib/constants/float64/ln-pi]: https://github.com/stdlib-js/constants-float64-ln-pi
 
-[@stdlib/constants/float64/ln-sqrt-two-pi]: https://github.com/stdlib-js/constants-float64-ln-sqrt-two-pi/tree/deno
+[@stdlib/constants/float64/ln-sqrt-two-pi]: https://github.com/stdlib-js/constants-float64-ln-sqrt-two-pi
 
-[@stdlib/constants/float64/ln-ten]: https://github.com/stdlib-js/constants-float64-ln-ten/tree/deno
+[@stdlib/constants/float64/ln-ten]: https://github.com/stdlib-js/constants-float64-ln-ten
 
-[@stdlib/constants/float64/ln-two-pi]: https://github.com/stdlib-js/constants-float64-ln-two-pi/tree/deno
+[@stdlib/constants/float64/ln-two-pi]: https://github.com/stdlib-js/constants-float64-ln-two-pi
 
-[@stdlib/constants/float64/ln-two]: https://github.com/stdlib-js/constants-float64-ln-two/tree/deno
+[@stdlib/constants/float64/ln-two]: https://github.com/stdlib-js/constants-float64-ln-two
 
-[@stdlib/constants/float64/log10-e]: https://github.com/stdlib-js/constants-float64-log10-e/tree/deno
+[@stdlib/constants/float64/log10-e]: https://github.com/stdlib-js/constants-float64-log10-e
 
-[@stdlib/constants/float64/log2-e]: https://github.com/stdlib-js/constants-float64-log2-e/tree/deno
+[@stdlib/constants/float64/log2-e]: https://github.com/stdlib-js/constants-float64-log2-e
 
-[@stdlib/constants/float64/max-base10-exponent-subnormal]: https://github.com/stdlib-js/constants-float64-max-base10-exponent-subnormal/tree/deno
+[@stdlib/constants/float64/max-base10-exponent-subnormal]: https://github.com/stdlib-js/constants-float64-max-base10-exponent-subnormal
 
-[@stdlib/constants/float64/max-base10-exponent]: https://github.com/stdlib-js/constants-float64-max-base10-exponent/tree/deno
+[@stdlib/constants/float64/max-base10-exponent]: https://github.com/stdlib-js/constants-float64-max-base10-exponent
 
-[@stdlib/constants/float64/max-base2-exponent-subnormal]: https://github.com/stdlib-js/constants-float64-max-base2-exponent-subnormal/tree/deno
+[@stdlib/constants/float64/max-base2-exponent-subnormal]: https://github.com/stdlib-js/constants-float64-max-base2-exponent-subnormal
 
-[@stdlib/constants/float64/max-base2-exponent]: https://github.com/stdlib-js/constants-float64-max-base2-exponent/tree/deno
+[@stdlib/constants/float64/max-base2-exponent]: https://github.com/stdlib-js/constants-float64-max-base2-exponent
 
-[@stdlib/constants/float64/max-ln]: https://github.com/stdlib-js/constants-float64-max-ln/tree/deno
+[@stdlib/constants/float64/max-ln]: https://github.com/stdlib-js/constants-float64-max-ln
 
-[@stdlib/constants/float64/max-safe-fibonacci]: https://github.com/stdlib-js/constants-float64-max-safe-fibonacci/tree/deno
+[@stdlib/constants/float64/max-safe-fibonacci]: https://github.com/stdlib-js/constants-float64-max-safe-fibonacci
 
-[@stdlib/constants/float64/max-safe-integer]: https://github.com/stdlib-js/constants-float64-max-safe-integer/tree/deno
+[@stdlib/constants/float64/max-safe-integer]: https://github.com/stdlib-js/constants-float64-max-safe-integer
 
-[@stdlib/constants/float64/max-safe-lucas]: https://github.com/stdlib-js/constants-float64-max-safe-lucas/tree/deno
+[@stdlib/constants/float64/max-safe-lucas]: https://github.com/stdlib-js/constants-float64-max-safe-lucas
 
-[@stdlib/constants/float64/max-safe-nth-fibonacci]: https://github.com/stdlib-js/constants-float64-max-safe-nth-fibonacci/tree/deno
+[@stdlib/constants/float64/max-safe-nth-fibonacci]: https://github.com/stdlib-js/constants-float64-max-safe-nth-fibonacci
 
-[@stdlib/constants/float64/max-safe-nth-lucas]: https://github.com/stdlib-js/constants-float64-max-safe-nth-lucas/tree/deno
+[@stdlib/constants/float64/max-safe-nth-lucas]: https://github.com/stdlib-js/constants-float64-max-safe-nth-lucas
 
-[@stdlib/constants/float64/max]: https://github.com/stdlib-js/constants-float64-max/tree/deno
+[@stdlib/constants/float64/max]: https://github.com/stdlib-js/constants-float64-max
 
-[@stdlib/constants/float64/min-base10-exponent-subnormal]: https://github.com/stdlib-js/constants-float64-min-base10-exponent-subnormal/tree/deno
+[@stdlib/constants/float64/min-base10-exponent-subnormal]: https://github.com/stdlib-js/constants-float64-min-base10-exponent-subnormal
 
-[@stdlib/constants/float64/min-base10-exponent]: https://github.com/stdlib-js/constants-float64-min-base10-exponent/tree/deno
+[@stdlib/constants/float64/min-base10-exponent]: https://github.com/stdlib-js/constants-float64-min-base10-exponent
 
-[@stdlib/constants/float64/min-base2-exponent-subnormal]: https://github.com/stdlib-js/constants-float64-min-base2-exponent-subnormal/tree/deno
+[@stdlib/constants/float64/min-base2-exponent-subnormal]: https://github.com/stdlib-js/constants-float64-min-base2-exponent-subnormal
 
-[@stdlib/constants/float64/min-base2-exponent]: https://github.com/stdlib-js/constants-float64-min-base2-exponent/tree/deno
+[@stdlib/constants/float64/min-base2-exponent]: https://github.com/stdlib-js/constants-float64-min-base2-exponent
 
-[@stdlib/constants/float64/min-ln]: https://github.com/stdlib-js/constants-float64-min-ln/tree/deno
+[@stdlib/constants/float64/min-ln]: https://github.com/stdlib-js/constants-float64-min-ln
 
-[@stdlib/constants/float64/min-safe-integer]: https://github.com/stdlib-js/constants-float64-min-safe-integer/tree/deno
+[@stdlib/constants/float64/min-safe-integer]: https://github.com/stdlib-js/constants-float64-min-safe-integer
 
-[@stdlib/constants/float64/ninf]: https://github.com/stdlib-js/constants-float64-ninf/tree/deno
+[@stdlib/constants/float64/ninf]: https://github.com/stdlib-js/constants-float64-ninf
 
-[@stdlib/constants/float64/num-bytes]: https://github.com/stdlib-js/constants-float64-num-bytes/tree/deno
+[@stdlib/constants/float64/num-bytes]: https://github.com/stdlib-js/constants-float64-num-bytes
 
-[@stdlib/constants/float64/phi]: https://github.com/stdlib-js/constants-float64-phi/tree/deno
+[@stdlib/constants/float64/phi]: https://github.com/stdlib-js/constants-float64-phi
 
-[@stdlib/constants/float64/pi-squared]: https://github.com/stdlib-js/constants-float64-pi-squared/tree/deno
+[@stdlib/constants/float64/pi-squared]: https://github.com/stdlib-js/constants-float64-pi-squared
 
-[@stdlib/constants/float64/pi]: https://github.com/stdlib-js/constants-float64-pi/tree/deno
+[@stdlib/constants/float64/pi]: https://github.com/stdlib-js/constants-float64-pi
 
-[@stdlib/constants/float64/pinf]: https://github.com/stdlib-js/constants-float64-pinf/tree/deno
+[@stdlib/constants/float64/pinf]: https://github.com/stdlib-js/constants-float64-pinf
 
-[@stdlib/constants/float64/precision]: https://github.com/stdlib-js/constants-float64-precision/tree/deno
+[@stdlib/constants/float64/precision]: https://github.com/stdlib-js/constants-float64-precision
 
-[@stdlib/constants/float64/smallest-normal]: https://github.com/stdlib-js/constants-float64-smallest-normal/tree/deno
+[@stdlib/constants/float64/smallest-normal]: https://github.com/stdlib-js/constants-float64-smallest-normal
 
-[@stdlib/constants/float64/smallest-subnormal]: https://github.com/stdlib-js/constants-float64-smallest-subnormal/tree/deno
+[@stdlib/constants/float64/smallest-subnormal]: https://github.com/stdlib-js/constants-float64-smallest-subnormal
 
-[@stdlib/constants/float64/sqrt-eps]: https://github.com/stdlib-js/constants-float64-sqrt-eps/tree/deno
+[@stdlib/constants/float64/sqrt-eps]: https://github.com/stdlib-js/constants-float64-sqrt-eps
 
-[@stdlib/constants/float64/sqrt-half-pi]: https://github.com/stdlib-js/constants-float64-sqrt-half-pi/tree/deno
+[@stdlib/constants/float64/sqrt-half-pi]: https://github.com/stdlib-js/constants-float64-sqrt-half-pi
 
-[@stdlib/constants/float64/sqrt-half]: https://github.com/stdlib-js/constants-float64-sqrt-half/tree/deno
+[@stdlib/constants/float64/sqrt-half]: https://github.com/stdlib-js/constants-float64-sqrt-half
 
-[@stdlib/constants/float64/sqrt-phi]: https://github.com/stdlib-js/constants-float64-sqrt-phi/tree/deno
+[@stdlib/constants/float64/sqrt-phi]: https://github.com/stdlib-js/constants-float64-sqrt-phi
 
-[@stdlib/constants/float64/sqrt-pi]: https://github.com/stdlib-js/constants-float64-sqrt-pi/tree/deno
+[@stdlib/constants/float64/sqrt-pi]: https://github.com/stdlib-js/constants-float64-sqrt-pi
 
-[@stdlib/constants/float64/sqrt-three]: https://github.com/stdlib-js/constants-float64-sqrt-three/tree/deno
+[@stdlib/constants/float64/sqrt-three]: https://github.com/stdlib-js/constants-float64-sqrt-three
 
-[@stdlib/constants/float64/sqrt-two-pi]: https://github.com/stdlib-js/constants-float64-sqrt-two-pi/tree/deno
+[@stdlib/constants/float64/sqrt-two-pi]: https://github.com/stdlib-js/constants-float64-sqrt-two-pi
 
-[@stdlib/constants/float64/sqrt-two]: https://github.com/stdlib-js/constants-float64-sqrt-two/tree/deno
+[@stdlib/constants/float64/sqrt-two]: https://github.com/stdlib-js/constants-float64-sqrt-two
 
-[@stdlib/constants/float64/two-pi]: https://github.com/stdlib-js/constants-float64-two-pi/tree/deno
+[@stdlib/constants/float64/two-pi]: https://github.com/stdlib-js/constants-float64-two-pi
 
 <!-- </toc-links> -->
 
