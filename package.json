@@ -48,6 +48,7 @@
     "@stdlib/constants-float64-glaisher-kinkelin": "^0.0.x",
     "@stdlib/constants-float64-half-ln-two": "^0.0.x",
     "@stdlib/constants-float64-half-pi": "^0.0.x",
+    "@stdlib/constants-float64-high-word-abs-mask": "^0.0.x",
     "@stdlib/constants-float64-high-word-exponent-mask": "^0.0.x",
     "@stdlib/constants-float64-high-word-sign-mask": "^0.0.x",
     "@stdlib/constants-float64-high-word-significand-mask": "^0.0.x",
