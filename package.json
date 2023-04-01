@@ -35,7 +35,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/constants-float64-apery": "^0.0.8",
+    "@stdlib/constants-float64-apery": "^0.0.9",
     "@stdlib/constants-float64-catalan": "^0.0.8",
     "@stdlib/constants-float64-cbrt-eps": "^0.0.8",
     "@stdlib/constants-float64-e": "^0.0.8",
