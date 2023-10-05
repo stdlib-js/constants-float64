@@ -95,7 +95,8 @@
     "@stdlib/constants-float64-sqrt-two": "^0.1.1",
     "@stdlib/constants-float64-sqrt-two-pi": "^0.1.1",
     "@stdlib/constants-float64-two-pi": "^0.1.1",
-    "@stdlib/utils-define-read-only-property": "^0.1.1"
+    "@stdlib/utils-define-read-only-property": "^0.1.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/math-base-special-abs": "^0.1.0",
