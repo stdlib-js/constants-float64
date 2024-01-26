@@ -35,38 +35,32 @@ limitations under the License.
 
 > Double-precision floating-point mathematical constants.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float64
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-constants = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var constants = require( 'path/to/vendor/umd/constants-float64/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.constants;
-})();
-</script>
+var constants = require( '@stdlib/constants-float64' );
 ```
 
 #### constants
@@ -124,6 +118,7 @@ var c = constants;
 -   <span class="signature">[`MIN_BASE2_EXPONENT`][@stdlib/constants/float64/min-base2-exponent]</span><span class="delimiter">: </span><span class="description">the minimum biased base 2 exponent for a normal double-precision floating-point number.</span>
 -   <span class="signature">[`MIN_LN`][@stdlib/constants/float64/min-ln]</span><span class="delimiter">: </span><span class="description">natural logarithm of the smallest **normalized** double-precision floating-point number.</span>
 -   <span class="signature">[`MIN_SAFE_INTEGER`][@stdlib/constants/float64/min-safe-integer]</span><span class="delimiter">: </span><span class="description">minimum safe double-precision floating-point integer.</span>
+-   <span class="signature">[`NAN`][@stdlib/constants/float64/nan]</span><span class="delimiter">: </span><span class="description">double-precision floating-point `NaN`.</span>
 -   <span class="signature">[`NINF`][@stdlib/constants/float64/ninf]</span><span class="delimiter">: </span><span class="description">double-precision floating-point negative infinity.</span>
 -   <span class="signature">[`NUM_BYTES`][@stdlib/constants/float64/num-bytes]</span><span class="delimiter">: </span><span class="description">size (in bytes) of a double-precision floating-point number.</span>
 -   <span class="signature">[`PHI`][@stdlib/constants/float64/phi]</span><span class="delimiter">: </span><span class="description">golden ratio.</span>
@@ -159,21 +154,11 @@ var c = constants;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var constants = require( '@stdlib/constants-float64' );
 
 console.log( objectKeys( constants ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -251,133 +236,138 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 [deno-url]: https://github.com/stdlib-js/constants-float64/tree/deno
+[deno-readme]: https://github.com/stdlib-js/constants-float64/blob/deno/README.md
 [umd-url]: https://github.com/stdlib-js/constants-float64/tree/umd
+[umd-readme]: https://github.com/stdlib-js/constants-float64/blob/umd/README.md
 [esm-url]: https://github.com/stdlib-js/constants-float64/tree/esm
+[esm-readme]: https://github.com/stdlib-js/constants-float64/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/constants-float64/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float64/main/LICENSE
 
 <!-- <toc-links> -->
 
-[@stdlib/constants/float64/apery]: https://github.com/stdlib-js/constants-float64-apery/tree/umd
+[@stdlib/constants/float64/apery]: https://github.com/stdlib-js/constants-float64-apery
 
-[@stdlib/constants/float64/catalan]: https://github.com/stdlib-js/constants-float64-catalan/tree/umd
+[@stdlib/constants/float64/catalan]: https://github.com/stdlib-js/constants-float64-catalan
 
-[@stdlib/constants/float64/cbrt-eps]: https://github.com/stdlib-js/constants-float64-cbrt-eps/tree/umd
+[@stdlib/constants/float64/cbrt-eps]: https://github.com/stdlib-js/constants-float64-cbrt-eps
 
-[@stdlib/constants/float64/e]: https://github.com/stdlib-js/constants-float64-e/tree/umd
+[@stdlib/constants/float64/e]: https://github.com/stdlib-js/constants-float64-e
 
-[@stdlib/constants/float64/eps]: https://github.com/stdlib-js/constants-float64-eps/tree/umd
+[@stdlib/constants/float64/eps]: https://github.com/stdlib-js/constants-float64-eps
 
-[@stdlib/constants/float64/eulergamma]: https://github.com/stdlib-js/constants-float64-eulergamma/tree/umd
+[@stdlib/constants/float64/eulergamma]: https://github.com/stdlib-js/constants-float64-eulergamma
 
-[@stdlib/constants/float64/exponent-bias]: https://github.com/stdlib-js/constants-float64-exponent-bias/tree/umd
+[@stdlib/constants/float64/exponent-bias]: https://github.com/stdlib-js/constants-float64-exponent-bias
 
-[@stdlib/constants/float64/fourth-pi]: https://github.com/stdlib-js/constants-float64-fourth-pi/tree/umd
+[@stdlib/constants/float64/fourth-pi]: https://github.com/stdlib-js/constants-float64-fourth-pi
 
-[@stdlib/constants/float64/fourth-root-eps]: https://github.com/stdlib-js/constants-float64-fourth-root-eps/tree/umd
+[@stdlib/constants/float64/fourth-root-eps]: https://github.com/stdlib-js/constants-float64-fourth-root-eps
 
-[@stdlib/constants/float64/gamma-lanczos-g]: https://github.com/stdlib-js/constants-float64-gamma-lanczos-g/tree/umd
+[@stdlib/constants/float64/gamma-lanczos-g]: https://github.com/stdlib-js/constants-float64-gamma-lanczos-g
 
-[@stdlib/constants/float64/glaisher-kinkelin]: https://github.com/stdlib-js/constants-float64-glaisher-kinkelin/tree/umd
+[@stdlib/constants/float64/glaisher-kinkelin]: https://github.com/stdlib-js/constants-float64-glaisher-kinkelin
 
-[@stdlib/constants/float64/half-ln-two]: https://github.com/stdlib-js/constants-float64-half-ln-two/tree/umd
+[@stdlib/constants/float64/half-ln-two]: https://github.com/stdlib-js/constants-float64-half-ln-two
 
-[@stdlib/constants/float64/half-pi]: https://github.com/stdlib-js/constants-float64-half-pi/tree/umd
+[@stdlib/constants/float64/half-pi]: https://github.com/stdlib-js/constants-float64-half-pi
 
-[@stdlib/constants/float64/high-word-abs-mask]: https://github.com/stdlib-js/constants-float64-high-word-abs-mask/tree/umd
+[@stdlib/constants/float64/high-word-abs-mask]: https://github.com/stdlib-js/constants-float64-high-word-abs-mask
 
-[@stdlib/constants/float64/high-word-exponent-mask]: https://github.com/stdlib-js/constants-float64-high-word-exponent-mask/tree/umd
+[@stdlib/constants/float64/high-word-exponent-mask]: https://github.com/stdlib-js/constants-float64-high-word-exponent-mask
 
-[@stdlib/constants/float64/high-word-sign-mask]: https://github.com/stdlib-js/constants-float64-high-word-sign-mask/tree/umd
+[@stdlib/constants/float64/high-word-sign-mask]: https://github.com/stdlib-js/constants-float64-high-word-sign-mask
 
-[@stdlib/constants/float64/high-word-significand-mask]: https://github.com/stdlib-js/constants-float64-high-word-significand-mask/tree/umd
+[@stdlib/constants/float64/high-word-significand-mask]: https://github.com/stdlib-js/constants-float64-high-word-significand-mask
 
-[@stdlib/constants/float64/ln-half]: https://github.com/stdlib-js/constants-float64-ln-half/tree/umd
+[@stdlib/constants/float64/ln-half]: https://github.com/stdlib-js/constants-float64-ln-half
 
-[@stdlib/constants/float64/ln-pi]: https://github.com/stdlib-js/constants-float64-ln-pi/tree/umd
+[@stdlib/constants/float64/ln-pi]: https://github.com/stdlib-js/constants-float64-ln-pi
 
-[@stdlib/constants/float64/ln-sqrt-two-pi]: https://github.com/stdlib-js/constants-float64-ln-sqrt-two-pi/tree/umd
+[@stdlib/constants/float64/ln-sqrt-two-pi]: https://github.com/stdlib-js/constants-float64-ln-sqrt-two-pi
 
-[@stdlib/constants/float64/ln-ten]: https://github.com/stdlib-js/constants-float64-ln-ten/tree/umd
+[@stdlib/constants/float64/ln-ten]: https://github.com/stdlib-js/constants-float64-ln-ten
 
-[@stdlib/constants/float64/ln-two-pi]: https://github.com/stdlib-js/constants-float64-ln-two-pi/tree/umd
+[@stdlib/constants/float64/ln-two-pi]: https://github.com/stdlib-js/constants-float64-ln-two-pi
 
-[@stdlib/constants/float64/ln-two]: https://github.com/stdlib-js/constants-float64-ln-two/tree/umd
+[@stdlib/constants/float64/ln-two]: https://github.com/stdlib-js/constants-float64-ln-two
 
-[@stdlib/constants/float64/log10-e]: https://github.com/stdlib-js/constants-float64-log10-e/tree/umd
+[@stdlib/constants/float64/log10-e]: https://github.com/stdlib-js/constants-float64-log10-e
 
-[@stdlib/constants/float64/log2-e]: https://github.com/stdlib-js/constants-float64-log2-e/tree/umd
+[@stdlib/constants/float64/log2-e]: https://github.com/stdlib-js/constants-float64-log2-e
 
-[@stdlib/constants/float64/max-base10-exponent-subnormal]: https://github.com/stdlib-js/constants-float64-max-base10-exponent-subnormal/tree/umd
+[@stdlib/constants/float64/max-base10-exponent-subnormal]: https://github.com/stdlib-js/constants-float64-max-base10-exponent-subnormal
 
-[@stdlib/constants/float64/max-base10-exponent]: https://github.com/stdlib-js/constants-float64-max-base10-exponent/tree/umd
+[@stdlib/constants/float64/max-base10-exponent]: https://github.com/stdlib-js/constants-float64-max-base10-exponent
 
-[@stdlib/constants/float64/max-base2-exponent-subnormal]: https://github.com/stdlib-js/constants-float64-max-base2-exponent-subnormal/tree/umd
+[@stdlib/constants/float64/max-base2-exponent-subnormal]: https://github.com/stdlib-js/constants-float64-max-base2-exponent-subnormal
 
-[@stdlib/constants/float64/max-base2-exponent]: https://github.com/stdlib-js/constants-float64-max-base2-exponent/tree/umd
+[@stdlib/constants/float64/max-base2-exponent]: https://github.com/stdlib-js/constants-float64-max-base2-exponent
 
-[@stdlib/constants/float64/max-ln]: https://github.com/stdlib-js/constants-float64-max-ln/tree/umd
+[@stdlib/constants/float64/max-ln]: https://github.com/stdlib-js/constants-float64-max-ln
 
-[@stdlib/constants/float64/max-safe-fibonacci]: https://github.com/stdlib-js/constants-float64-max-safe-fibonacci/tree/umd
+[@stdlib/constants/float64/max-safe-fibonacci]: https://github.com/stdlib-js/constants-float64-max-safe-fibonacci
 
-[@stdlib/constants/float64/max-safe-integer]: https://github.com/stdlib-js/constants-float64-max-safe-integer/tree/umd
+[@stdlib/constants/float64/max-safe-integer]: https://github.com/stdlib-js/constants-float64-max-safe-integer
 
-[@stdlib/constants/float64/max-safe-lucas]: https://github.com/stdlib-js/constants-float64-max-safe-lucas/tree/umd
+[@stdlib/constants/float64/max-safe-lucas]: https://github.com/stdlib-js/constants-float64-max-safe-lucas
 
-[@stdlib/constants/float64/max-safe-nth-fibonacci]: https://github.com/stdlib-js/constants-float64-max-safe-nth-fibonacci/tree/umd
+[@stdlib/constants/float64/max-safe-nth-fibonacci]: https://github.com/stdlib-js/constants-float64-max-safe-nth-fibonacci
 
-[@stdlib/constants/float64/max-safe-nth-lucas]: https://github.com/stdlib-js/constants-float64-max-safe-nth-lucas/tree/umd
+[@stdlib/constants/float64/max-safe-nth-lucas]: https://github.com/stdlib-js/constants-float64-max-safe-nth-lucas
 
-[@stdlib/constants/float64/max]: https://github.com/stdlib-js/constants-float64-max/tree/umd
+[@stdlib/constants/float64/max]: https://github.com/stdlib-js/constants-float64-max
 
-[@stdlib/constants/float64/min-base10-exponent-subnormal]: https://github.com/stdlib-js/constants-float64-min-base10-exponent-subnormal/tree/umd
+[@stdlib/constants/float64/min-base10-exponent-subnormal]: https://github.com/stdlib-js/constants-float64-min-base10-exponent-subnormal
 
-[@stdlib/constants/float64/min-base10-exponent]: https://github.com/stdlib-js/constants-float64-min-base10-exponent/tree/umd
+[@stdlib/constants/float64/min-base10-exponent]: https://github.com/stdlib-js/constants-float64-min-base10-exponent
 
-[@stdlib/constants/float64/min-base2-exponent-subnormal]: https://github.com/stdlib-js/constants-float64-min-base2-exponent-subnormal/tree/umd
+[@stdlib/constants/float64/min-base2-exponent-subnormal]: https://github.com/stdlib-js/constants-float64-min-base2-exponent-subnormal
 
-[@stdlib/constants/float64/min-base2-exponent]: https://github.com/stdlib-js/constants-float64-min-base2-exponent/tree/umd
+[@stdlib/constants/float64/min-base2-exponent]: https://github.com/stdlib-js/constants-float64-min-base2-exponent
 
-[@stdlib/constants/float64/min-ln]: https://github.com/stdlib-js/constants-float64-min-ln/tree/umd
+[@stdlib/constants/float64/min-ln]: https://github.com/stdlib-js/constants-float64-min-ln
 
-[@stdlib/constants/float64/min-safe-integer]: https://github.com/stdlib-js/constants-float64-min-safe-integer/tree/umd
+[@stdlib/constants/float64/min-safe-integer]: https://github.com/stdlib-js/constants-float64-min-safe-integer
 
-[@stdlib/constants/float64/ninf]: https://github.com/stdlib-js/constants-float64-ninf/tree/umd
+[@stdlib/constants/float64/nan]: https://github.com/stdlib-js/constants-float64-nan
 
-[@stdlib/constants/float64/num-bytes]: https://github.com/stdlib-js/constants-float64-num-bytes/tree/umd
+[@stdlib/constants/float64/ninf]: https://github.com/stdlib-js/constants-float64-ninf
 
-[@stdlib/constants/float64/phi]: https://github.com/stdlib-js/constants-float64-phi/tree/umd
+[@stdlib/constants/float64/num-bytes]: https://github.com/stdlib-js/constants-float64-num-bytes
 
-[@stdlib/constants/float64/pi-squared]: https://github.com/stdlib-js/constants-float64-pi-squared/tree/umd
+[@stdlib/constants/float64/phi]: https://github.com/stdlib-js/constants-float64-phi
 
-[@stdlib/constants/float64/pi]: https://github.com/stdlib-js/constants-float64-pi/tree/umd
+[@stdlib/constants/float64/pi-squared]: https://github.com/stdlib-js/constants-float64-pi-squared
 
-[@stdlib/constants/float64/pinf]: https://github.com/stdlib-js/constants-float64-pinf/tree/umd
+[@stdlib/constants/float64/pi]: https://github.com/stdlib-js/constants-float64-pi
 
-[@stdlib/constants/float64/precision]: https://github.com/stdlib-js/constants-float64-precision/tree/umd
+[@stdlib/constants/float64/pinf]: https://github.com/stdlib-js/constants-float64-pinf
 
-[@stdlib/constants/float64/smallest-normal]: https://github.com/stdlib-js/constants-float64-smallest-normal/tree/umd
+[@stdlib/constants/float64/precision]: https://github.com/stdlib-js/constants-float64-precision
 
-[@stdlib/constants/float64/smallest-subnormal]: https://github.com/stdlib-js/constants-float64-smallest-subnormal/tree/umd
+[@stdlib/constants/float64/smallest-normal]: https://github.com/stdlib-js/constants-float64-smallest-normal
 
-[@stdlib/constants/float64/sqrt-eps]: https://github.com/stdlib-js/constants-float64-sqrt-eps/tree/umd
+[@stdlib/constants/float64/smallest-subnormal]: https://github.com/stdlib-js/constants-float64-smallest-subnormal
 
-[@stdlib/constants/float64/sqrt-half-pi]: https://github.com/stdlib-js/constants-float64-sqrt-half-pi/tree/umd
+[@stdlib/constants/float64/sqrt-eps]: https://github.com/stdlib-js/constants-float64-sqrt-eps
 
-[@stdlib/constants/float64/sqrt-half]: https://github.com/stdlib-js/constants-float64-sqrt-half/tree/umd
+[@stdlib/constants/float64/sqrt-half-pi]: https://github.com/stdlib-js/constants-float64-sqrt-half-pi
 
-[@stdlib/constants/float64/sqrt-phi]: https://github.com/stdlib-js/constants-float64-sqrt-phi/tree/umd
+[@stdlib/constants/float64/sqrt-half]: https://github.com/stdlib-js/constants-float64-sqrt-half
 
-[@stdlib/constants/float64/sqrt-pi]: https://github.com/stdlib-js/constants-float64-sqrt-pi/tree/umd
+[@stdlib/constants/float64/sqrt-phi]: https://github.com/stdlib-js/constants-float64-sqrt-phi
 
-[@stdlib/constants/float64/sqrt-three]: https://github.com/stdlib-js/constants-float64-sqrt-three/tree/umd
+[@stdlib/constants/float64/sqrt-pi]: https://github.com/stdlib-js/constants-float64-sqrt-pi
 
-[@stdlib/constants/float64/sqrt-two-pi]: https://github.com/stdlib-js/constants-float64-sqrt-two-pi/tree/umd
+[@stdlib/constants/float64/sqrt-three]: https://github.com/stdlib-js/constants-float64-sqrt-three
 
-[@stdlib/constants/float64/sqrt-two]: https://github.com/stdlib-js/constants-float64-sqrt-two/tree/umd
+[@stdlib/constants/float64/sqrt-two-pi]: https://github.com/stdlib-js/constants-float64-sqrt-two-pi
 
-[@stdlib/constants/float64/two-pi]: https://github.com/stdlib-js/constants-float64-two-pi/tree/umd
+[@stdlib/constants/float64/sqrt-two]: https://github.com/stdlib-js/constants-float64-sqrt-two
+
+[@stdlib/constants/float64/two-pi]: https://github.com/stdlib-js/constants-float64-two-pi
 
 <!-- </toc-links> -->
 
