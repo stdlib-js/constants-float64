@@ -77,7 +77,7 @@
     "@stdlib/constants-float64-min-base2-exponent-subnormal": "^0.1.1",
     "@stdlib/constants-float64-min-ln": "^0.1.1",
     "@stdlib/constants-float64-min-safe-integer": "^0.1.1",
-    "@stdlib/constants-float64-nan": "github:stdlib-js/constants-float64-nan#main",
+    "@stdlib/constants-float64-nan": "^0.1.0",
     "@stdlib/constants-float64-ninf": "^0.1.1",
     "@stdlib/constants-float64-num-bytes": "^0.1.1",
     "@stdlib/constants-float64-phi": "^0.1.1",
