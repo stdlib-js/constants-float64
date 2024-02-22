@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64/tags). For example,
+
+```javascript
 import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { APERY, CATALAN, CBRT_EPS, E, EPS, EULERGAMMA, EXPONENT_BIAS, FOURTH_PI, FOURTH_ROOT_EPS, GAMMA_LANCZOS_G, GLAISHER, HALF_LN2, HALF_PI, HIGH_WORD_ABS_MASK, HIGH_WORD_EXPONENT_MASK, HIGH_WORD_SIGNIFICAND_MASK, HIGH_WORD_SIGN_MASK, LN10, LN2, LN_HALF, LN_PI, LN_SQRT_TWO_PI, LN_TWO_PI, LOG10E, LOG2E, MAX, MAX_BASE10_EXPONENT, MAX_BASE10_EXPONENT_SUBNORMAL, MAX_BASE2_EXPONENT, MAX_BASE2_EXPONENT_SUBNORMAL, MAX_LN, MAX_SAFE_FIBONACCI, MAX_SAFE_INTEGER, MAX_SAFE_LUCAS, MAX_SAFE_NTH_FIBONACCI, MAX_SAFE_NTH_LUCAS, MIN_BASE10_EXPONENT, MIN_BASE10_EXPONENT_SUBNORMAL, MIN_BASE2_EXPONENT, MIN_BASE2_EXPONENT_SUBNORMAL, MIN_LN, MIN_SAFE_INTEGER, NAN, NINF, NUM_BYTES, PHI, PI, PINF, PI_SQUARED, PRECISION, SMALLEST_NORMAL, SMALLEST_SUBNORMAL, SQRT_EPS, SQRT_HALF, SQRT_HALF_PI, SQRT_PHI, SQRT_PI, SQRT_THREE, SQRT_TWO, SQRT_TWO_PI, TWO_PI } from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64@v0.2.1-deno/mod.js';
+import { APERY, CATALAN, CBRT_EPS, E, EPS, EULERGAMMA, EXPONENT_BIAS, FOURTH_PI, FOURTH_ROOT_EPS, GAMMA_LANCZOS_G, GLAISHER, HALF_LN2, HALF_PI, HIGH_WORD_ABS_MASK, HIGH_WORD_EXPONENT_MASK, HIGH_WORD_SIGNIFICAND_MASK, HIGH_WORD_SIGN_MASK, LN10, LN2, LN_HALF, LN_PI, LN_SQRT_TWO_PI, LN_TWO_PI, LOG10E, LOG2E, MAX, MAX_BASE10_EXPONENT, MAX_BASE10_EXPONENT_SUBNORMAL, MAX_BASE2_EXPONENT, MAX_BASE2_EXPONENT_SUBNORMAL, MAX_LN, MAX_SAFE_FIBONACCI, MAX_SAFE_INTEGER, MAX_SAFE_LUCAS, MAX_SAFE_NTH_FIBONACCI, MAX_SAFE_NTH_LUCAS, MIN_BASE10_EXPONENT, MIN_BASE10_EXPONENT_SUBNORMAL, MIN_BASE2_EXPONENT, MIN_BASE2_EXPONENT_SUBNORMAL, MIN_LN, MIN_SAFE_INTEGER, NAN, NINF, NUM_BYTES, PHI, PI, PINF, PI_SQUARED, PRECISION, SMALLEST_NORMAL, SMALLEST_SUBNORMAL, SQRT_EPS, SQRT_HALF, SQRT_HALF_PI, SQRT_PHI, SQRT_PI, SQRT_THREE, SQRT_TWO, SQRT_TWO_PI, TWO_PI } from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64@deno/mod.js';
 ```
 
 #### constants
@@ -144,7 +149,7 @@ var c = constants;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64@v0.2.1-deno/mod.js';
+import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64@deno/mod.js';
 
 console.log( objectKeys( constants ) );
 ```
