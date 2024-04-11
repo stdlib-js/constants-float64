@@ -102,7 +102,7 @@
     "@stdlib/math-base-assert-is-nan": "^0.2.1",
     "@stdlib/math-base-special-abs": "^0.2.1",
     "@stdlib/math-base-special-cbrt": "^0.2.1",
-    "@stdlib/math-base-special-ln": "^0.2.1",
+    "@stdlib/math-base-special-ln": "^0.2.3",
     "@stdlib/math-base-special-max": "^0.2.1",
     "@stdlib/math-base-special-pow": "^0.2.1",
     "@stdlib/math-base-special-round": "^0.2.1",
