@@ -4,9 +4,64 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-01)
+## Unreleased (2024-10-01)
 
-No changes reported for this release.
+<section class="packages">
+
+### Packages
+
+<section class="package" id="constants-float64-num-high-word-significand-bits-unreleased">
+
+#### [@stdlib/constants/float64/num-high-word-significand-bits](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float64/num-high-word-significand-bits)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`51787c8`](https://github.com/stdlib-js/stdlib/commit/51787c84fc5805a0144c2596ad8ac631470458b5) - add `constants/float64/num-high-word-significand-bits` [(#2889)](https://github.com/stdlib-js/stdlib/pull/2889)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+</section>
+
+<!-- /.packages -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Gunj Joshi
+
+</section>
+
+<!-- /.contributors -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`51787c8`](https://github.com/stdlib-js/stdlib/commit/51787c84fc5805a0144c2596ad8ac631470458b5) - **feat:** add `constants/float64/num-high-word-significand-bits` [(#2889)](https://github.com/stdlib-js/stdlib/pull/2889) _(by Gunj Joshi, Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
 
 </section>
 
