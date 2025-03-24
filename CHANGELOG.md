@@ -4,11 +4,35 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2025-03-24)
 
 <section class="packages">
 
 ### Packages
+
+<section class="package" id="constants-float64-eulergamma-unreleased">
+
+#### [@stdlib/constants/float64/eulergamma](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float64/eulergamma)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#6222](https://github.com/stdlib-js/stdlib/issues/6222)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
 
 <section class="package" id="constants-float64-max-safe-nth-double-factorial-unreleased">
 
@@ -21,6 +45,28 @@
 ##### Features
 
 -   [`d0ebce3`](https://github.com/stdlib-js/stdlib/commit/d0ebce3a1ed53532f2bee61096fa08400f534437) - add `constants/float64/max-safe-nth-double-factorial` [(#2966)](https://github.com/stdlib-js/stdlib/pull/2966)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="constants-float64-max-safe-nth-tribonacci-unreleased">
+
+#### [@stdlib/constants/float64/max-safe-nth-tribonacci](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float64/max-safe-nth-tribonacci)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`27e0f3c`](https://github.com/stdlib-js/stdlib/commit/27e0f3c432b142bcef3e679670802947b9ad16ca) - add `constants/float64/max-safe-nth-tribonacci` [(#3317)](https://github.com/stdlib-js/stdlib/pull/3317)
 
 </section>
 
@@ -58,14 +104,28 @@
 
 <!-- /.packages -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#6222](https://github.com/stdlib-js/stdlib/issues/6222)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="contributors">
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Gautam sharma
 -   Gunj Joshi
+-   Philipp Burckhardt
 
 </section>
 
@@ -77,6 +137,14 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`0901e47`](https://github.com/stdlib-js/stdlib/commit/0901e47081951f23dde4aaf458bf4e09588e030e) - **docs:** add missing period _(by Athan Reines)_
+-   [`f4bf6e6`](https://github.com/stdlib-js/stdlib/commit/f4bf6e691a0617ac2ffa97514a20f23b62b5ccce) - **chore:** use consistent naming in `constants/float64/eulergamma` [(#6228)](https://github.com/stdlib-js/stdlib/pull/6228) _(by Gautam sharma)_
+-   [`14706e4`](https://github.com/stdlib-js/stdlib/commit/14706e4baccbf3b827e12cae163d7b98a96b0fa8) - **docs:** update related packages sections [(#4445)](https://github.com/stdlib-js/stdlib/pull/4445) _(by stdlib-bot)_
+-   [`c322b66`](https://github.com/stdlib-js/stdlib/commit/c322b6647751b73a9d0fe12bf5665e8e2243d4ca) - **docs:** update related packages sections [(#4070)](https://github.com/stdlib-js/stdlib/pull/4070) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`b8c41df`](https://github.com/stdlib-js/stdlib/commit/b8c41df78cd2cdc9cd3c3c6b223759d32f4f6e14) - **docs:** update related packages sections [(#3915)](https://github.com/stdlib-js/stdlib/pull/3915) _(by stdlib-bot)_
+-   [`11d30d5`](https://github.com/stdlib-js/stdlib/commit/11d30d555880163ecca9b5aa49624acf8855ca3f) - **docs:** update examples _(by Athan Reines)_
+-   [`7e8187a`](https://github.com/stdlib-js/stdlib/commit/7e8187a766886c2fb9cdc356cf781f0a1802172c) - **docs:** update related packages sections [(#3368)](https://github.com/stdlib-js/stdlib/pull/3368) _(by stdlib-bot)_
+-   [`27e0f3c`](https://github.com/stdlib-js/stdlib/commit/27e0f3c432b142bcef3e679670802947b9ad16ca) - **feat:** add `constants/float64/max-safe-nth-tribonacci` [(#3317)](https://github.com/stdlib-js/stdlib/pull/3317) _(by Gunj Joshi, Athan Reines)_
 -   [`d0ebce3`](https://github.com/stdlib-js/stdlib/commit/d0ebce3a1ed53532f2bee61096fa08400f534437) - **feat:** add `constants/float64/max-safe-nth-double-factorial` [(#2966)](https://github.com/stdlib-js/stdlib/pull/2966) _(by Gunj Joshi, Athan Reines)_
 -   [`51787c8`](https://github.com/stdlib-js/stdlib/commit/51787c84fc5805a0144c2596ad8ac631470458b5) - **feat:** add `constants/float64/num-high-word-significand-bits` [(#2889)](https://github.com/stdlib-js/stdlib/pull/2889) _(by Gunj Joshi, Athan Reines)_
 
