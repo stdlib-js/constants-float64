@@ -4,13 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-20)
+## Unreleased (2025-11-07)
 
 <section class="features">
 
 ### Features
 
--   [`154ff94`](https://github.com/stdlib-js/stdlib/commit/154ff94132f2435ab70bfdf2ebf661c6441a040c) - add constants to \`float64\` namespace
+-   [`07aa01c`](https://github.com/stdlib-js/stdlib/commit/07aa01c797be713dc34e3b4ea8c551cbea56aa14) - update `constants/float64` TypeScript declarations
+-   [`154ff94`](https://github.com/stdlib-js/stdlib/commit/154ff94132f2435ab70bfdf2ebf661c6441a040c) - add constants to `float64` namespace
 -   [`efef831`](https://github.com/stdlib-js/stdlib/commit/efef83155872e1f55ca49df03a0c7485409c25e5) - add `constants/float64/max-nth-double-factorial`
 -   [`6647a76`](https://github.com/stdlib-js/stdlib/commit/6647a76f9353e27b0e3647f5087fba1edcd68f61) - add `constants/float64/max-nth-factorial`
 -   [`27e0f3c`](https://github.com/stdlib-js/stdlib/commit/27e0f3c432b142bcef3e679670802947b9ad16ca) - add `constants/float64/max-safe-nth-tribonacci` [(#3317)](https://github.com/stdlib-js/stdlib/pull/3317)
@@ -51,18 +52,20 @@ This release closes the following issue:
 
 <details>
 
--   [`154ff94`](https://github.com/stdlib-js/stdlib/commit/154ff94132f2435ab70bfdf2ebf661c6441a040c) - **feat:** add constants to \`float64\` namespace _(by Philipp Burckhardt)_
+-   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
+-   [`07aa01c`](https://github.com/stdlib-js/stdlib/commit/07aa01c797be713dc34e3b4ea8c551cbea56aa14) - **feat:** update `constants/float64` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`154ff94`](https://github.com/stdlib-js/stdlib/commit/154ff94132f2435ab70bfdf2ebf661c6441a040c) - **feat:** add constants to `float64` namespace _(by Philipp Burckhardt)_
 -   [`f9651e6`](https://github.com/stdlib-js/stdlib/commit/f9651e6411b4ebd3c95dcc6b46c02e6d5be009fa) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`170ed65`](https://github.com/stdlib-js/stdlib/commit/170ed65bcf933f7a7642bd735e1d376cbc0ecb6d) - **fix:** correct `FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL` _(by Karan Anand)_
 -   [`efef831`](https://github.com/stdlib-js/stdlib/commit/efef83155872e1f55ca49df03a0c7485409c25e5) - **feat:** add `constants/float64/max-nth-double-factorial` _(by Karan Anand)_
 -   [`70369dc`](https://github.com/stdlib-js/stdlib/commit/70369dce75e32d97f337b26e79fcb5a412acb337) - **docs:** fix examples _(by Karan Anand)_
 -   [`4b8eae7`](https://github.com/stdlib-js/stdlib/commit/4b8eae7701fc8b4a877181bd048866d5e0a397e5) - **docs:** fix examples _(by Athan Reines)_
--   [`0c37cb3`](https://github.com/stdlib-js/stdlib/commit/0c37cb30a51bf5c1e026bf66719c7a4f2b3b2be9) - **chore:** update test messages in `constants/float64` [(#6749)](https://github.com/stdlib-js/stdlib/pull/6749) _(by Harsh)_
--   [`294d60a`](https://github.com/stdlib-js/stdlib/commit/294d60af4131dbdbc9b717708e407cc07de14ebc) - **chore:** update test messages in `constants/float64` [(#6748)](https://github.com/stdlib-js/stdlib/pull/6748) _(by Harsh, hrshya)_
--   [`6847363`](https://github.com/stdlib-js/stdlib/commit/68473633e18bf94b785faa26992986552f6ead2c) - **chore:** update test messages in `constants/float64` [(#6747)](https://github.com/stdlib-js/stdlib/pull/6747) _(by Harsh, hrshya)_
+-   [`0c37cb3`](https://github.com/stdlib-js/stdlib/commit/0c37cb30a51bf5c1e026bf66719c7a4f2b3b2be9) - **chore:** update test messages in `constants/float64` [(#6749)](https://github.com/stdlib-js/stdlib/pull/6749) _(by Harsh Yadav)_
+-   [`294d60a`](https://github.com/stdlib-js/stdlib/commit/294d60af4131dbdbc9b717708e407cc07de14ebc) - **chore:** update test messages in `constants/float64` [(#6748)](https://github.com/stdlib-js/stdlib/pull/6748) _(by Harsh Yadav, hrshya)_
+-   [`6847363`](https://github.com/stdlib-js/stdlib/commit/68473633e18bf94b785faa26992986552f6ead2c) - **chore:** update test messages in `constants/float64` [(#6747)](https://github.com/stdlib-js/stdlib/pull/6747) _(by Harsh Yadav, hrshya)_
 -   [`a41f30e`](https://github.com/stdlib-js/stdlib/commit/a41f30e05539ab23eaa1b2e9ca7581029ea8b0aa) - **fix:** correct `FLOAT64_MAX_SAFE_NTH_FACTORIAL` _(by Karan Anand)_
 -   [`6647a76`](https://github.com/stdlib-js/stdlib/commit/6647a76f9353e27b0e3647f5087fba1edcd68f61) - **feat:** add `constants/float64/max-nth-factorial` _(by Karan Anand)_
--   [`3275ec2`](https://github.com/stdlib-js/stdlib/commit/3275ec2fd4cadcb50d5191fda88ffa78fbf3b831) - **chore:** update test messages in `constants/float64` [(#6728)](https://github.com/stdlib-js/stdlib/pull/6728) _(by Harsh)_
+-   [`3275ec2`](https://github.com/stdlib-js/stdlib/commit/3275ec2fd4cadcb50d5191fda88ffa78fbf3b831) - **chore:** update test messages in `constants/float64` [(#6728)](https://github.com/stdlib-js/stdlib/pull/6728) _(by Harsh Yadav)_
 -   [`7a824b1`](https://github.com/stdlib-js/stdlib/commit/7a824b1fee5300e447dcf8278a2397b6ad3a9f1c) - **fix:** correct `FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL` [(#6379)](https://github.com/stdlib-js/stdlib/pull/6379) _(by Karan Anand)_
 -   [`0901e47`](https://github.com/stdlib-js/stdlib/commit/0901e47081951f23dde4aaf458bf4e09588e030e) - **docs:** add missing period _(by Athan Reines)_
 -   [`f4bf6e6`](https://github.com/stdlib-js/stdlib/commit/f4bf6e691a0617ac2ffa97514a20f23b62b5ccce) - **chore:** use consistent naming in `constants/float64/eulergamma` [(#6228)](https://github.com/stdlib-js/stdlib/pull/6228) _(by Gautam sharma)_
@@ -85,15 +88,14 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Gautam sharma
 -   Gunj Joshi
--   Harsh
+-   Harsh Yadav
 -   Karan Anand
 -   Philipp Burckhardt
--   hrshya
 
 </section>
 
