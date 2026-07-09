@@ -2,6 +2,56 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-07-09)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#11209](https://github.com/stdlib-js/stdlib/issues/11209)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`a9ded39`](https://github.com/stdlib-js/stdlib/commit/a9ded39203d2cbc9ff79b0cc96f0fbd2a962b36f) - **chore:** clean-up [(#12446)](https://github.com/stdlib-js/stdlib/pull/12446) _(by Philipp Burckhardt, Athan Reines)_
+-   [`1396582`](https://github.com/stdlib-js/stdlib/commit/1396582a1c2c075d60f79d72115145b5ee2dd245) - **chore:** fix JavaScript lint errors [(#11211)](https://github.com/stdlib-js/stdlib/pull/11211) _(by Jean Carlos Vargas, Athan Reines)_
+-   [`2417324`](https://github.com/stdlib-js/stdlib/commit/241732401abca73eba81a13811ab2dc646bea691) - **docs:** fix heading levels [(#13010)](https://github.com/stdlib-js/stdlib/pull/13010) _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 3 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Jean Carlos Vargas
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.4.1">
 
 ## 0.4.1 (2026-02-07)
