@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-12)
+## Unreleased (2026-10-19)
 
 <section class="bug-fixes">
 
@@ -34,6 +34,10 @@ This release closes the following issue:
 
 <details>
 
+-   [`fa0bc59`](https://github.com/stdlib-js/stdlib/commit/fa0bc59095b8411b20a29faa3453b15f35d46399) - **test:** migrate `constants/float64/ln-ten` to ULP-based assertions [(#16177)](https://github.com/stdlib-js/stdlib/pull/16177) _(by Athan Reines)_
+-   [`cca7aa8`](https://github.com/stdlib-js/stdlib/commit/cca7aa816606326065911bec1e56c650f7d9304b) - **test:** migrate `constants/float64/ln-two` to ULP-based assertions [(#16107)](https://github.com/stdlib-js/stdlib/pull/16107) _(by Athan Reines)_
+-   [`30ad8ec`](https://github.com/stdlib-js/stdlib/commit/30ad8ec0d36d5bf031538573371e21eb65176f74) - **test:** migrate `constants/float64/half-ln-two` to ULP-based assertions [(#16098)](https://github.com/stdlib-js/stdlib/pull/16098) _(by Athan Reines)_
+-   [`29c6c92`](https://github.com/stdlib-js/stdlib/commit/29c6c92b23eaba5dbcb2f6e2f54de47262ef9ff5) - **test:** migrate `constants/float64/ln-two-pi` to ULP-based assertions [(#15855)](https://github.com/stdlib-js/stdlib/pull/15855) _(by Philipp Burckhardt, Athan Reines)_
 -   [`fb5ec21`](https://github.com/stdlib-js/stdlib/commit/fb5ec210035434f3734e3e0c16f1b9365880eefa) - **fix:** add parentheses to NaN macros [(#15676)](https://github.com/stdlib-js/stdlib/pull/15676) _(by Karan Anand)_
 -   [`39fe031`](https://github.com/stdlib-js/stdlib/commit/39fe0312c0f91bafc29f62de92b02a8a4f02645b) - **docs:** update descriptions [(#15207)](https://github.com/stdlib-js/stdlib/pull/15207) _(by Philipp Burckhardt)_
 -   [`7a57356`](https://github.com/stdlib-js/stdlib/commit/7a57356495ab73262b3740e1117555eb1791c2a6) - **docs:** update aliases [(#13490)](https://github.com/stdlib-js/stdlib/pull/13490) _(by Philipp Burckhardt)_

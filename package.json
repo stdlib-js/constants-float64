@@ -105,6 +105,7 @@
     "@stdlib/utils-define-read-only-property": "^0.2.3"
   },
   "devDependencies": {
+    "@stdlib/assert-is-almost-same-value": "^0.1.1",
     "@stdlib/math-base-assert-is-nan": "^0.2.3",
     "@stdlib/math-base-special-abs": "^0.2.3",
     "@stdlib/math-base-special-cbrt": "^0.2.3",
